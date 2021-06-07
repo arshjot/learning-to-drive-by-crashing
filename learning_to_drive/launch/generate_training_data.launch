@@ -1,0 +1,16 @@
+<launch>
+
+<!-- arguments are set via terminal and can have a default value -->
+<arg name="robot_name" default="thymio10" />
+<arg name="world" default="empty" />
+
+<!-- nodes are exectued -->
+<include file="$(find learning_to_drive)/launch/random_world.launch">
+ </include>
+
+<node pkg="learning_to_drive" name="data_collect_controller" type="data_collect_controller.py" output="screen">
+    <!-- paramters must be set in the launchfile -->
+    <param name="robot_name" value="/$(arg robot_name)" />
+</node>
+
+</launch>
