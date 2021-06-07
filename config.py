@@ -8,6 +8,6 @@ class Config:
     lr_reduce_patience = 8
     es_patience = 20
 
-    architecture = 'MobileNetV2'
+    architecture = 'MobileNet'
 
     data_file = 'data.pkl'
