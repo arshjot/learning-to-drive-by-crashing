@@ -10,8 +10,12 @@ Some example videos have been provided in the `Videos` directory.
 Note for running `cafe`, `warehouse`, `small_house`, and `random_items` worlds, you will need to first follow the models folders from the following links to `~/.gazebo/models`:
 
 `cafe`: https://github.com/osrf/gazebo_models/tree/master/cafe
+
+
 `small_house`: https://github.com/aws-robotics/aws-robomaker-small-house-world/tree/ros1/models
+
 `warehouse`: https://github.com/aws-robotics/aws-robomaker-small-warehouse-world/tree/master/models
+
 `random_items`: https://github.com/aws-robotics/aws-robomaker-hospital-world/tree/master/models
 
 
